@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090b10"><title>SA Tricks</title><link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script></head>
+<body>
+<header class="header"><div class="header-left"><button class="icon-btn" id="menuBtn">☰</button><a class="brand" href="index.html"><img src="logo.png"><strong>SA Tricks</strong></a></div><a class="telegram-btn" href="https://t.me/satricks09" target="_blank">Telegram</a></header>
+<aside class="sidebar" id="sidebar"><div class="side-brand"><img src="logo.png"><div><strong>SA Tricks</strong><small>Apps & Updates</small></div></div><nav>
+<button data-scroll="home">🏠 Home</button><button data-scroll="popular">🔥 Popular</button><button data-scroll="latest">⚡ Latest</button><button data-scroll="all">📱 All Apps</button>
+<a href="https://t.me/satricks09" target="_blank">✈ Telegram</a><button id="themeBtn">🌓 Theme</button><a href="admin.html">⚙ Admin</a></nav></aside><div class="overlay" id="overlay"></div>
+<main id="home"><section class="hero"><span class="badge">SA TRICKS</span><h1>Apps, Tools & Updates</h1><p>Discover useful apps and latest updates from SA Tricks.</p><div class="hero-actions"><a class="primary-btn" href="https://t.me/satricks09" target="_blank">✈ Join Telegram</a><a class="secondary-btn" href="#all">Browse Apps</a></div></section>
+<section class="search-section"><div class="search-box">🔍<input id="searchInput" type="search" placeholder="Search apps..."></div></section>
+<section class="section" id="popular"><div class="section-head"><h2>🔥 Popular Apps</h2><span>Popular</span></div><div class="horizontal-apps" id="popularApps"></div></section>
+<section class="section" id="latest"><div class="section-head"><h2>⚡ Latest Apps</h2><span>Latest</span></div><div class="list-apps" id="latestApps"></div></section>
+<section class="section" id="all"><div class="section-head"><h2>📱 All Apps</h2><span id="appCount">Loading...</span></div><div class="apps-grid" id="allApps"></div></section></main>
+<footer class="footer"><img src="logo.png"><strong>SA Tricks</strong><p>Apps • Tools • Tips • Tricks</p><a href="https://t.me/satricks09" target="_blank">Join Telegram</a></footer>
+<nav class="bottom-nav"><button data-scroll="home">⌂<small>Home</small></button><button data-scroll="popular">🔥<small>Popular</small></button><button data-scroll="latest">⚡<small>Latest</small></button><button data-scroll="all">📱<small>Apps</small></button><button id="bottomTheme">🌓<small>Theme</small></button></nav>
+<script src="script.js"></script></body></html>
